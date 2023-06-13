@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan JQuery2</title>
+    <script src="jquery-3.7.0.min.js"></script>
+</head>
+<body>
+    <s></s>
+    <h2> Belajar JQuery</h2>
+    <div id="belajarkontenid">Belajar Konten ID</div>
+    <div class="belajarkontenclass">Belajar Konten CLASS</div>
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+        $(function(){
+            $("#belajarkontenid").html("Dengan jQuery Pada Element ID");
+            $(".belajarkontencls").html("dengan jQuery pada element CLASS");
+            $("h2").html("Membuat Query");
+            $("s").html("isi dari Query");
+        });
+    </script>
+</body>
+</html>

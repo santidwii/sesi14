@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>latihan jQuery 01</title>
+    <script src="jquery-3.7.0.min.js"></script>
+</head>
+<body>
+
+    <h3> Judul Konten</h3>
+    <p></p>
+    <div id="isikontenid">Isi Konten ID</div>
+    <div class="isikontencls">Isi Konten CLASS</div>
+
+    <script src="jquery-3.7.0.min.js"></script>
+    <script>
+        
+        $(function(){
+            $("#isikontenid").html("Konten Dengan jQuery Pada Element ID");
+            $(".isikontencls").html("konten dengan jQuery pada element CLASS");
+            $("p").html("Latihan JQuery");
+            $("p").html("isi dari paragraph");
+        });
+        //document.getElementById("isikontenid").innerHTML = "konten pengganti <b>konten ID</b>"
+        //document.getElementsByClassName("isikontencls")
+    </script>
+    
+</body>
+</html>
